@@ -1,4 +1,4 @@
-FROM golang:1.11.3-stretch
+FROM golang:latest
 COPY . /go/src/mallory
 WORKDIR /go/src/mallory/cmd/mallory
 RUN go get .
